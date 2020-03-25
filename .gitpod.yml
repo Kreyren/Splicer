@@ -1,0 +1,6 @@
+image:
+  file: .gitpod.Dockerfile
+
+tasks:
+  - init: python3 -m pip install -r requirements.txt
+  - init: python3 splicer.py

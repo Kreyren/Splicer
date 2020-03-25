@@ -1,2 +1,10 @@
 image:
   file: .gitpod.Dockerfile
+
+ports:
+  - port: 6080
+    onOpen: open-preview
+
+tasks:
+  - init: python3 -m pip install -r requirements.txt
+    command: python3 splicer.py

@@ -15,7 +15,7 @@ This Program is still incomplete and under heavy development. Current src is for
 ## To Run
 ```bash
 $ python3 -m pip install -r requirements.txt
-& python3 splicer.py
+$ python3 splicer.py
 ```
 
 ## License :scroll:
